@@ -1,0 +1,26 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+footer::before {
+    border-color: #a7a7ab;
+}
+.footer .ul {
+    display: -webkit-box;
+    background: #f5f5f7;
+    background: -webkit-linear-gradient(top, #f5f5f7, #f6f6f7);
+}
+.footer .ul .li {
+    -webkit-box-flex: 1;
+    text-align: center;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: #929292;
+    font-size: 0.14rem;
+}
+.footer .ul .li.cur{
+    color: #09bb07;
+}

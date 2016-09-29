@@ -1,0 +1,56 @@
+.user {
+    font-size: 0.14rem;
+}
+.user .header {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 0.05rem;
+    display: block;
+}
+.user .qr {
+    display: inline-block;
+    width: 0.17rem;
+    height: 0.17rem;
+    vertical-align: middle;
+}
+.user .name {
+    font-size: 0.18rem;
+    line-height: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+.user .account {
+    font-size: 0.14rem;
+    line-height: 0.16rem;
+}
+.user .icon_xc,
+.user .icon_sc,
+.user .icon_qb,
+.user .icon_kb,
+.user .icon_bq,
+.user .icon_sz {
+    width: 0.2rem;
+    height: 0.2rem;
+    display: block;
+    background: url('../images/icon/icon2.png') no-repeat 0 0;
+    background-size: auto 0.2rem;
+    border-top: 0.03rem solid #fff;
+    border-bottom: 0.03rem solid #fff;
+}
+.user .icon_xc {
+    background-position: 0 0.02rem;
+}
+.user .icon_sc {
+    background-position: -0.28rem 0;
+}
+.user .icon_qb {
+    background-position: -0.61rem 0.02rem;
+}
+.user .icon_kb {
+    background-position: -0.9rem 0.01rem;
+}
+.user .icon_bq {
+    background-position: -1.21rem 0;
+}
+.user .icon_sz {
+    background-position: -1.52rem 0;
+}

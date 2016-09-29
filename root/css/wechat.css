@@ -1,0 +1,29 @@
+.wechat {
+    height: 100%;
+    background-color: #fff;
+}
+.wechat .cover {
+    width: 0.46rem;
+    height: 0.46rem;
+    display: block;
+    border-radius: 0.05rem;
+}
+.wechat .name {
+    font-size: 0.16rem;
+    line-height: 0.18rem;
+    margin-bottom: 0.08rem !important;
+}
+.wechat .summary {
+    color: #707070;
+    line-height: 0.14rem;
+}
+.wechat .time {
+    color: #707070;
+    font-size: 0.1rem;
+}
+.wechat .defaultTip {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ddd;
+    background-position: center 40%;
+}

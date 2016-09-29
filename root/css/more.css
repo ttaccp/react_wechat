@@ -1,0 +1,31 @@
+.more {
+    font-size: 0.14rem;
+}
+.more .icon_pyq,
+.more .icon_sys,
+.more .icon_yyy,
+.more .icon_fjdr,
+.more .icon_plp {
+    display: block;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: url('../images/icon/icon.png') 0 0;
+    background-size: 0.2rem auto;
+    border-top: 0.03rem solid #fff;
+    border-bottom: 0.03rem solid #fff;
+}
+.more .icon_yyy {
+    background-position: 0 -0.27rem;
+}
+.more .icon_fjdr {
+    background-position: 0 -0.54rem;
+}
+.more .icon_plp {
+    background-position: 0 -0.81rem;
+}
+.more .icon_pyq {
+    background-position: 0 -1.05rem;
+}
+.more a {
+    color: #404040;
+}

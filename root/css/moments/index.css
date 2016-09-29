@@ -1,0 +1,82 @@
+.moments {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.moments .cover_box {
+    position: relative;
+    margin-bottom: 0.4rem;
+}
+.moments .cover_box .cover {
+    width: 100%;
+    display: block;
+}
+.moments .cover_box .name_box {
+    position: absolute;
+    right: 0.1rem;
+    bottom: -0.23rem;
+}
+.moments .cover_box .name_box .name {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    margin: -0.1rem 0.2rem 0 0;
+    font-size: 0.16rem;
+    line-height: 0.18rem;
+    text-shadow: 0.02rem 0.02rem 0.02rem #444;
+}
+.moments .cover_box .name_box .header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0.01rem #cdcdcd;
+}
+.moments .dynamic_list {
+    color: #000;
+}
+.moments .dynamic_list .dynamic {
+    position: relative;
+    padding: 0.15rem 0.12rem 0.15rem 0.64rem;
+}
+.moments .dynamic .header {
+    width: 0.42rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 0.11rem;
+    top: 0.15rem;
+}
+.moments .dynamic .content_box {
+    position: relative;
+}
+.moments .dynamic .content_box > div {
+    margin-top: 0.07rem;
+}
+.moments .dynamic .content_box .name {
+    color: #576b95;
+    font-size: 0.14rem;
+    line-height: 0.16rem;
+    margin-top: 0;
+}
+.moments .dynamic .content_box .text {
+    font-size: 0.14rem;
+    line-height: 0.18rem;
+}
+.moments .dynamic .content_box .pic_list {
+    overflow: hidden;
+    zoom: 1;
+}
+.moments .dynamic .pic_list .pic {
+    width: 1.15rem;
+    max-height: 1.8rem;
+    float: left;
+}
+.moments .dynamic .content_box .time {
+    font-size: 0.12rem;
+    color: #737373;
+}
